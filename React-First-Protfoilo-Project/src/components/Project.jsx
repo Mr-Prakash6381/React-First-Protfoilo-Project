@@ -39,7 +39,9 @@ const Project = () => {
               <li>
                 Smooth transitions and animations for a better user experience
               </li>
-              <li>Technologies used Html Css and Javascript</li>
+              <li className="hidden lg:flex">
+                Technologies used Html Css and Javascript
+              </li>
             </ol>
           </div>
           <div className="size-80 w-full border rounded-2xl border-green-800 hover:translate-y-0.5  hover:border-green-500 hover:shadow-emerald-500 hover:shadow-md p-5 ">
@@ -66,7 +68,7 @@ const Project = () => {
               <li>Read: Display the list of existing data entries </li>
               <li>Update: Edit and update existing data entries</li>
               <li> Delete: Remove data entries</li>
-              <li>
+              <li className="hidden lg:flex">
                 Technologies Used Tailwind Css / React (with functional
                 components and hooks like useState for state management)
               </li>
