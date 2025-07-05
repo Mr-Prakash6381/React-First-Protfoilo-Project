@@ -3,7 +3,6 @@ import Contact from "./components/Contact";
 import Education from "./components/Education";
 import Footer from "./components/Footer";
 import Home from "./components/Home";
-import Navbar from "./components/Navbar";
 import Project from "./components/Project";
 import Skills from "./components/Skills";
 
@@ -11,8 +10,7 @@ import Skills from "./components/Skills";
 
 function App() {
   return (
-    <div className="p-5 container mx-auto ">
-      <Navbar />
+    <div className="px-5 pb-5 container mx-auto ">
       <Home />
       <About />
       <Education />

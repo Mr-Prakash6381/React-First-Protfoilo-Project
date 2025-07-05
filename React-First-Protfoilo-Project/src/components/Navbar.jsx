@@ -10,8 +10,13 @@ const Navbar = () => {
     setIsMenuOpen(!isMenuOpen);
   };
   return (
-    <div className="flex lg:flex-row  lg:justify-between  lg:items-center  sticky top-3 z-10 ">
-      <h1 className="text-2xl font-bold text-green-400 ">Portfolio</h1>
+    <div className="flex lg:flex-row lg:justify-between lg:items-center 
+               sticky top-0 z-10 
+               bg-gray-800/80          
+               backdrop-blur-sm        
+               border-b border-gray-700/50  
+               lg:px-20 px-8 py-3 lg:py-4 ">
+      <h1   className="text-3xl font-bold text-green-400">Portfolio</h1>
       <ul className="flex flex-row    font-bold text-white items-end justify-end">
         <div className="flex flex-row gap-10">
           <ol className="hidden lg:flex flex-row gap-10">
