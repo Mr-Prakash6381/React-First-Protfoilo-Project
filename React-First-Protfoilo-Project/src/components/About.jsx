@@ -21,9 +21,9 @@ const About = () => {
           experiences.
         </h1>
         <h1 className="text-2xl my-10 text-white font-light">
-          When I’m not developing projects like login systems or dynamic
+          When I’m also developing projects like login systems or dynamic
           navbars, I explore emerging tech and share insights with the developer
-          community to foster collective growth.
+          community to faster collective growth.
         </h1>
         {/* </div> */}
       </div>
