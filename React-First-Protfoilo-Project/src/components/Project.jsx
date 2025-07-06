@@ -8,7 +8,7 @@ const Project = () => {
           <span className="border-b-2">Proj</span>ects
         </h1>
         <div className="flex lg:flex-row flex-col  gap-5 m-5 mb-10">
-          <div className="size-80 w-full  border rounded-2xl border-green-800 hover:translate-y-0.5  hover:border-green-500 hover:shadow-emerald-500 hover:shadow-md p-5 ">
+          <div className="overflow-hidden size-80  w-full   border rounded-2xl border-green-800 hover:translate-y-0.5  hover:border-green-500 hover:shadow-emerald-500 hover:shadow-md p-5 ">
             <h1 className="text-2xl font-bold text-green-400 mb-5 ">
               Responsive-Navbar
             </h1>
@@ -44,7 +44,7 @@ const Project = () => {
               </li>
             </ol>
           </div>
-          <div className="size-80 w-full border rounded-2xl border-green-800 hover:translate-y-0.5  hover:border-green-500 hover:shadow-emerald-500 hover:shadow-md p-5 ">
+          <div className="overflow-hidden size-80 w-full  border rounded-2xl border-green-800 hover:translate-y-0.5  hover:border-green-500 hover:shadow-emerald-500 hover:shadow-md p-5 ">
             <h1 className="text-2xl font-bold text-green-400 mb-5 ">
               Form Validation
             </h1>
@@ -69,14 +69,17 @@ const Project = () => {
                 Email Check the proper validation using the email regex pattern{" "}
               </li>
               <li>Password lengths of six characters are validated</li>
-              <li>
-                It used React hooks and conditional statement props and Tailwind
-              </li>
+              <ul className="hidden lg:flex list-disc">
+                <li>
+                  It used React hooks and conditional statement props and
+                  Tailwind
+                </li>
+              </ul>
             </ol>
           </div>
         </div>
         <div className="flex lg:flex-row lg:justify-center flex-col gap-5 m-5 mb-10">
-          <div className="size-80 lg:w-1/2 w-full border rounded-2xl border-green-800 hover:translate-y-0.5  hover:border-green-500 hover:shadow-emerald-500 hover:shadow-md p-5 ">
+          <div className="overflow-hidden size-80 lg:w-1/2 w-full border rounded-2xl border-green-800 hover:translate-y-0.5  hover:border-green-500 hover:shadow-emerald-500 hover:shadow-md p-5 ">
             <h1 className="text-2xl font-bold text-green-400 mb-5 ">
               CURD-OperationOnly -UI
             </h1>
@@ -100,10 +103,12 @@ const Project = () => {
               <li>Read: Display the list of existing data entries </li>
               <li>Update: Edit and update existing data entries</li>
               <li> Delete: Remove data entries</li>
-              <li className="hidden lg:flex">
-                Technologies Used Tailwind Css / React (with functional
-                components and hooks like useState for state management)
-              </li>
+              <ul className="list-disc lg:flex hidden">
+                <li>
+                  Technologies Used Tailwind Css / React (with functional
+                  components and hooks like useState for state management)
+                </li>
+              </ul>
             </ol>
           </div>
         </div>
