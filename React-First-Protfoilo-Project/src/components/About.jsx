@@ -13,17 +13,17 @@ const About = () => {
           I’m <span className="font-bold ">Prakash</span> , an ambitious Full
           Stack Developer with expertise in modern web technologies like HTML,
           CSS, JavaScript, Tailwind, React, MongoDB, Node.js, Express.js, and
-          GitHub.
+          GitHub
         </h1>
         <h1 className="text-2xl my-10 text-white font-light">
           I build efficient digital solutions—from responsive UIs to full-stack
           CRUD applications—with a focus on clean code and seamless user
-          experiences.
+          experiences
         </h1>
         <h1 className="text-2xl my-10 text-white font-light">
           When I’m also developing projects like login systems or dynamic
           navbars, I explore emerging tech and share insights with the developer
-          community to faster collective growth.
+          community to foster collective growth
         </h1>
         {/* </div> */}
       </div>
