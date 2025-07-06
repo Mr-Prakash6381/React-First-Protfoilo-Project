@@ -46,6 +46,38 @@ const Project = () => {
           </div>
           <div className="size-80 w-full border rounded-2xl border-green-800 hover:translate-y-0.5  hover:border-green-500 hover:shadow-emerald-500 hover:shadow-md p-5 ">
             <h1 className="text-2xl font-bold text-green-400 mb-5 ">
+              Form Validation
+            </h1>
+            <a
+              href="https://github.com/Mr-Prakash6381/React-Form-Validation"
+              className="text-white font-extralight hover:border-b hover:border-b-green-300"
+              target="__blank"
+            >
+              GitHub Repo
+            </a>
+            <br />
+            <a
+              href="https://login-validation-603375.netlify.app/"
+              className="text-white font-extralight  hover:border-b hover:border-b-green-300"
+              target="__blank"
+            >
+              WebSite Link
+            </a>
+            <ol className="text-white font-extralight list-disc ml-5 mt-5">
+              <li> Form validation checks all fields and requires them</li>
+              <li>
+                Email Check the proper validation using the email regex pattern{" "}
+              </li>
+              <li>Password lengths of six characters are validated</li>
+              <li>
+                It used React hooks and conditional statement props and Tailwind
+              </li>
+            </ol>
+          </div>
+        </div>
+        <div className="flex lg:flex-row lg:justify-center flex-col gap-5 m-5 mb-10">
+          <div className="size-80 lg:w-1/2 w-full border rounded-2xl border-green-800 hover:translate-y-0.5  hover:border-green-500 hover:shadow-emerald-500 hover:shadow-md p-5 ">
+            <h1 className="text-2xl font-bold text-green-400 mb-5 ">
               CURD-OperationOnly -UI
             </h1>
             <a
